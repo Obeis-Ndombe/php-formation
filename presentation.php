@@ -4,7 +4,7 @@
     $age = 25;
     $ville = "Paris";
     $objectifProfessionnel = "Devenir développeur web";
-    $anneeActuelle = 2026;
+    $anneeActuelle = (int) date('Y');
 
     $anneeDeNaissance = $anneeActuelle - $age;
 
